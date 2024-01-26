@@ -1,4 +1,4 @@
-num1 = 5
+num1 = 160
 
 num2 = 4
 
@@ -13,9 +13,18 @@ def substraction():
     print(f"Substraction of {num1} and {num2} is {sub}")
     
     
-
+def multiplication():
+    mul = num1 * num2
+    print(f"Prduct of {num1} and {num2} is {mul}")    
+    
+def division():
+    div = num1 / num2
+    print(f"Division of {num1} and {num2} is {div}")    
 
 addition()
 
 substraction()
 
+multiplication()
+
+division()
